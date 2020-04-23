@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  books-helm:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-04-25T20:33:42.509184-06:00"
+    description: A Helm chart for Kubernetes
+    digest: d36c3f61e2e5327ade37ae9e6f116ad31eb00ebbfb27b3b3562158a172c44caa
+    name: books-helm
+    type: application
+    urls:
+    - books-helm-0.1.0.tgz
+    version: 0.1.0
+  users-helm:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-04-25T20:33:42.512403-06:00"
+    description: A Helm chart for Kubernetes
+    digest: 1f8e2308d97676c9216f8f69c2942cf34726d2fbfe06c28be3ebb59409837464
+    name: users-helm
+    type: application
+    urls:
+    - users-helm-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-04-25T20:33:42.507788-06:00"
