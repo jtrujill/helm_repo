@@ -3,9 +3,9 @@ entries:
   books-helm:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-04-25T20:39:11.566707-06:00"
+    created: "2020-04-25T23:35:57.122397-06:00"
     description: A Helm chart for Kubernetes
-    digest: d36c3f61e2e5327ade37ae9e6f116ad31eb00ebbfb27b3b3562158a172c44caa
+    digest: b4d32f465cd83d4c8f6296ce3918df99d3306f797545966a4c6f958d6a812236
     name: books-helm
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   gateway:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-04-25T20:39:11.570821-06:00"
+    created: "2020-04-25T23:35:57.124543-06:00"
     dependencies:
     - name: books-helm
       repository: https://jtrujill.github.io/helm_repo/
@@ -23,7 +23,7 @@ entries:
       repository: https://jtrujill.github.io/helm_repo/
       version: 0.1.0
     description: A Helm chart for Kubernetes
-    digest: a080a19db4ef48b19fbdb5a64da42b7ba2c06afb262ae122168cff1c3a256e45
+    digest: c6f341c47e7e62c4f860bdd6de4e7aefb066787a1b05b1670d96da608316e9d9
     name: gateway
     type: application
     urls:
@@ -32,12 +32,12 @@ entries:
   users-helm:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2020-04-25T20:39:11.57214-06:00"
+    created: "2020-04-25T23:35:57.125491-06:00"
     description: A Helm chart for Kubernetes
-    digest: 1f8e2308d97676c9216f8f69c2942cf34726d2fbfe06c28be3ebb59409837464
+    digest: 939fdeaad8311820a2b17f4a097203cb8c06f4484e4714eade450780e1b4e732
     name: users-helm
     type: application
     urls:
     - users-helm-0.1.0.tgz
     version: 0.1.0
-generated: "2020-04-25T20:39:11.565089-06:00"
+generated: "2020-04-25T23:35:57.120998-06:00"
